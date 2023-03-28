@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>fusionopolis_gz_world</name>
+  <version>0.0.1</version>
+  <description>The fusionopolis_gz_world package</description>
+
+  <author email="chanjl@i2r.a-star.edu.sg">Chan Jian Le</author>
+  <maintainer email="chanjl@i2r.a-star.edu.sg">Chan Jian Le</maintainer>
+  <license>TODO</license>
+  <url type="website">https://git.i2r.a-star.edu.sg/chanjl/fusionopolis_gz_world</url>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>gazebo</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+
+  <build_export_depend>gazebo</build_export_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>rospy</build_export_depend>
+
+  <exec_depend>gazebo</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>rospy</exec_depend>
+
+
+  <export>
+  </export>
+</package>
